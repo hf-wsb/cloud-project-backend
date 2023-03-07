@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+    <style>
+        body {background-color: powderblue;}
+        h1   {color: blue;}
+        input[type=text] {
+            width: 50%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+        input[type=submit]{
+            background-color: #0559a3;
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+            }
+    </style>
+</head>
+<body>
+<h1>Welcome</h1>
+<form action="shortenurl" method="post">
+    <label for="shortcode">Enter Name: </label>
+    <input type="text" name="shortcode" value="" required>
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
