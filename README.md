@@ -49,7 +49,8 @@ In cmd terminal type:
 
 ### Finally, our environement is ready and we can launch application using command:
 
-        flask --app application run
+        SET FLASK_APP=application.py
+        flask run
         
 - Open your internet browser, copy url from cmd and hit enter.
 - You ought to see 'Hello world'
