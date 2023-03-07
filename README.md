@@ -14,13 +14,13 @@ Create the project folder locally
 
 ### Create a virtual environment for the project
 
-- Create a ```.py``` python file into ```cloud-project-backend``` and ```cd``` into it
+- Firstly you have to pull this repository to your local computer. You can do that using: 
 
-        echo >> main.py
+        git pull https://github.com/hf-wsb/cloud-project-backend.git
 
-- Create a virtual environment called ```venv_name```
+- Create a virtual environment called ```venv```
 
-    The command below will create a new folder called ```venv_name```
+    The command below will create a new folder called ```venv```
 
         python -m venv venv
 
@@ -30,19 +30,26 @@ In cmd terminal type:
 
     .\venv\Scripts\activate
 
-### Create requirements.txt
-        echo >> requirements.txt
-
 ### Record the dependencies for the project
 
 - First, update the ```pip``` library
 
         python -m pip install --upgrade pip
 
-- Then, create the dependencies file named ```requirements.txt```
-
-        pip list > requirements.txt
+- Install dependecies
+        
+        cd app
+        pip install -r requirements.txt
 
 ---
 
-Finally, our environement is ready and we can application using command "python3 main.py"
+### Finally, our environement is ready and we can launch application using command:
+
+        flask --app application run
+        
+Open your internet browser, copy url from cmd and hit enter.
+You ought to see 'Hello world'
+You can also add /hello to the ulr link
+Enter your name and hit submit button
+You should see the website which welcome you using your name :) 
+You can also try to use pylint. Close flask server and enter "pylint application.py" and you will see that code is rated on 10/10 :)
