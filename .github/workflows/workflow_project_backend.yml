@@ -35,7 +35,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           
-      #Adding pylint test, but first also installing requirements
+      #Change folder, installing requirements and executing pylint test
       - name: Run a pylint test
         run: |
           cd app
