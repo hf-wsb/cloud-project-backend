@@ -14,7 +14,10 @@ Create the project folder locally
 
 ### Create a virtual environment for the project
 
-- Firstly you have to pull this repository to your local computer. You can do that using: 
+- Firstly you have to initialize empty git repository. You can do that using:
+        git init 
+        
+- Now you can pull this repository to your local computer. You can do that using: 
 
         git pull https://github.com/hf-wsb/cloud-project-backend.git
 
@@ -47,9 +50,9 @@ In cmd terminal type:
 
         flask --app application run
         
-Open your internet browser, copy url from cmd and hit enter.
-You ought to see 'Hello world'
-You can also add /hello to the ulr link
-Enter your name and hit submit button
-You should see the website which welcome you using your name :) 
-You can also try to use pylint. Close flask server and enter "pylint application.py" and you will see that code is rated on 10/10 :)
+- Open your internet browser, copy url from cmd and hit enter.
+- You ought to see 'Hello world'
+- You can also add /hello to the ulr link
+- Enter your name and hit submit button
+- You should see the website which welcome you using your name :) 
+- You can also try to use pylint. Close flask server and enter "pylint application.py" and you will see that code is rated on 10/10 :)
