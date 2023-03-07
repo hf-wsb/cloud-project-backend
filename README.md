@@ -15,6 +15,7 @@ Create the project folder locally
 ### Create a virtual environment for the project
 
 - Firstly you have to initialize empty git repository. You can do that using:
+        
         git init 
         
 - Now you can pull this repository to your local computer. You can do that using: 
