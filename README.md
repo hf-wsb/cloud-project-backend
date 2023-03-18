@@ -58,3 +58,13 @@ In cmd terminal type:
 - Enter your name and hit submit button
 - You should see the website which welcome you using your name :) 
 - You can also try to use pylint. Close flask server and enter "pylint application.py" and you will see that code is rated on 10/10 :)
+
+
+### DOCKER - create docker image
+
+        docker build -t flask-image .
+
+
+### DOCKER - Start the Docker container by forwarding ports from the host to the container
+
+        docker run -p 5000:5000 --name flask-container flask-image
